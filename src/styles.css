@@ -11,7 +11,7 @@ body{
     padding: 0px;
     width: 100%;
     height: 100%;
-    background-image: url(D:\Mainproject\GameQuora\src\assets\bg3.jpeg);
+    background-image: url(src\assets\bg3.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
