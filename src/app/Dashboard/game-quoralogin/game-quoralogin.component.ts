@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class GameQuoraloginComponent {
 
+
+  signUp(){
+    const wrapper= document.getElementsByClassName('wrapper')
+    const registerlink= document.getElementsByClassName('register-link')
+    const loginlink= document.getElementsByClassName('login-link')
+
+
+    wrapper[0].classList.add('active')
+  }
+
+  LoginUp(){
+    const wrapper= document.getElementsByClassName('wrapper')
+    const registerlink= document.getElementsByClassName('register-link')
+    const loginlink= document.getElementsByClassName('login-link')
+    
+    wrapper[0].classList.remove('active')
+  }
+
 }
