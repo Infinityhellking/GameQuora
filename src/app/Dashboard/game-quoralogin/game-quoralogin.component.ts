@@ -7,22 +7,46 @@ import { Component } from '@angular/core';
 })
 export class GameQuoraloginComponent {
 
+constructor(){
+
+}
+
 
   signUp(){
-    const wrapper= document.getElementsByClassName('wrapper')
-    const registerlink= document.getElementsByClassName('register-link')
-    const loginlink= document.getElementsByClassName('login-link')
-
-
-    wrapper[0].classList.add('active')
+    const regpage= document.getElementsByClassName('regpage')
+    const signUpbtnlink= document.getElementsByClassName('signUpbtnlink')
+    const signInbtnlink= document.getElementsByClassName('signInbtnlink')
+    
+    regpage[0].classList.add('active')
   }
 
   LoginUp(){
-    const wrapper= document.getElementsByClassName('wrapper')
-    const registerlink= document.getElementsByClassName('register-link')
-    const loginlink= document.getElementsByClassName('login-link')
+    const regpage= document.getElementsByClassName('regpage')
+    const signUpbtnlink= document.getElementsByClassName('signUpbtnlink')
+    const signInbtnlink= document.getElementsByClassName('signInbtnlink')
     
-    wrapper[0].classList.remove('active')
+    regpage[0].classList.remove('active')
   }
 
 }
+
+
+// const signUpbtnlink: HTMLElement | null = document.querySelector('.signUpbtnlink');
+// const signInbtnlink: HTMLElement | null = document.querySelector('.signInbtnlink');
+// const regpage: HTMLElement | null = document.querySelector('.regpage');
+
+// signInbtnlink?.addEventListener('click', () => {
+//   if (regpage) {
+//     regpage.classList.toggle('active');
+//   }
+// });
+
+
+
+// const signUpbtnlink=document.querySelector('.signUpbtnlink');
+// const signInbtnlink= document.querySelector('signInbtnlink')
+// const regpage= document.getElementsByClassName('regpage')
+
+// signInbtnlink?.addEventListener('click',()=>{
+//   regpage.classList.toggle('active');
+// })
