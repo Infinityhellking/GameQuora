@@ -212,7 +212,7 @@ border-radius: 30px;
 
         .logo1,.logo2{
             position: relative;
-            left: 15px;
+            left: 5px;
         }
 
         .input-group input:focus~label,
